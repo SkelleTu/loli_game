@@ -76,3 +76,6 @@ sysinfo.txt
 
 # Crash reports
 crashlytics-build-id.txt
+
+# Unity generated solution files can be regenerated safely
+*.booproj
