@@ -1,5 +1,6 @@
-# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# See https://github.com/ for more about ignoring files.
 
+# Existing web / TypeScript workspace
 # compiled output
 dist
 tmp
@@ -47,3 +48,31 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+
+# Unity IDE generated
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Unity Asset import/cache files
+*.pidb
+*.pidb.meta
+*.pdb
+*.pdb.meta
+sysinfo.txt
+
+# Crash reports
+crashlytics-build-id.txt
